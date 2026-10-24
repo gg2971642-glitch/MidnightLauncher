@@ -1,0 +1,50 @@
+# Сборка C++
+build/
+dist/
+cpp/build/
+cpp/build-cmake/
+*.exe
+*.dll
+*.lib
+*.pdb
+*.ilk
+*.obj
+*.o
+*.log
+*.tmp
+*.bak
+
+# Python-кэш (локально)
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+
+# Локальная Python-версия (в репозиторий не входит)
+minecraft_launcher.py
+build_exe.ps1
+Midnight launcher.spec
+midnight_badge.png
+
+# IDE
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+
+# Локальные данные лаунчера (никогда не коммитить)
+settings.json
+profiles.json
+auth.json
+ely.json
+account.txt
+.env
+
+# Системный мусор
+Thumbs.db
+desktop.ini
+.DS_Store

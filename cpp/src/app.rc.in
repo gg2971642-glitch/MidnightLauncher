@@ -1,0 +1,6 @@
+#include <windows.h>
+
+// id 1 — иконка приложения, см. LoadAppIcon в main.cpp.
+// CMake кладёт рядом с этим файлом копию midnight.ico (app.ico):
+// windres не открывает путь с кириллицей, относительное имя работает всегда.
+1 ICON "app.ico"
